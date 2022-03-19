@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+}
+
+.root{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #F56A6B;
+}
+
+.hide{
+    display:none;
+}
+
+.show{
+    display:flex;
+}
+
+.start-page{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    z-index:2;
+    position:relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F56A6B;
+}
+
+.deck-page{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FrontPageLogo{
+    width: 55px;
+    height: 65px;
+}
+
+.FrontPageName{
+    margin-top:20px;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 31px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+}
+
+.StartButton{
+    margin-top: 82px;
+    width: 250px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+    color: #D70900;
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+    z-index:0;
+    position:fixed;
+    top:0;
+}
+
+.SmallLogo{
+    width:127px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 61px;
+}
+
+.Flashcards{
+    overflow-y: scroll;
+    height: 315px;
+}
+
+
+.LogoSmall{
+    width: 39px;
+    min-height: 45px;
+}
+
+.LogoName{
+    margin-left:10px;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+}
+
+.Card-stage1{
+    width: 327px;
+    height: 71px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+.Question-stage1{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 14px;
+    color: #333333;
+}
+
+.Card-stage2{
+    margin-bottom: 25px;
+    width: 299px;
+    min-height: 131px;
+    background: #FFFFD5;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+.Question-stage2{
+    font-family: 'Recursive';
+    margin-top: 18px;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.Arrow-stage2{
+    width: 30px;
+    height: 20px;
+    margin-left: 260px;
+    margin-bottom: 10px;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;;
+}
+.score div{
+    width: 85.17px;
+    height: 37.17px;
+    border-radius: 5px;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.not-remember {
+    background: #FF3030;
+}
+
+.almost{
+    background: #FF922E;
+}
+
+.zap{
+    background-color:#2FBE34;
+}
+
+.Arrow{
+    width: 19px;
+    height: 23px;
+}
+
+.Footer{
+    width: 100vw;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 14px;
+    color: #333333;
+    position: fixed;
+    bottom:0;
+}
