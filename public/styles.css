@@ -93,7 +93,7 @@
 
 .Flashcards{
     overflow-y: scroll;
-    height: 315px;
+    height: 380px;
 }
 
 
@@ -117,12 +117,12 @@
 }
 
 .Card-stage1{
-    width: 327px;
-    height: 71px;
+    width: 300px;
+    height: 65px;
     background: #FFFFFF;
     box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
-    margin-bottom: 8px;
+    margin-bottom: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

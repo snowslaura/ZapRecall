@@ -6,7 +6,7 @@ export default function Start(){
      
 
 return(
-    <div className={hide?"hide":"lalala"}>
+    <div className={hide?"hide":""}>
         <div className="start-page">
             <img className="FrontPageLogo" src="./assets/logo.png" alt="logo-ZapRecall"/>
             <h1 className="FrontPageName">ZapRecall</h1>
