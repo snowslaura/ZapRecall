@@ -2,9 +2,14 @@ import Logo from "../Logo/Logo"
 import Footer from "../Footer/Footer"
 import Flashcard from "../Flashcard/Flashcard"
 
+import { useState } from "react"
+
 export default function Deck(){
 
+    const [finished, setFinished] = useState(0);
+    const [emojis, setEmojis] = useState([]);
     
+
     const questions=[
         {
             question:"O que é JSX?",
@@ -40,13 +45,13 @@ export default function Deck(){
         },
     ]
 
-    function embaralhaCartas(array){    
-        array = array.sort(comparador); 
+    function sortCards(array){    
+        array = array.sort(compare); 
     }   
     
-    embaralhaCartas(questions);
+    sortCards(questions);
     
-    function comparador() { 
+    function compare() { 
         return Math.random() - 0.5; 
     }
 
@@ -56,9 +61,21 @@ export default function Deck(){
         <div className="Content">
             <Logo />
             <div className="Flashcards">
-            {questions.map((question, index)=><Flashcard key={index} {...question} number={index+1}/>)}
+            {questions.map((question, index)=>{
+                return(
+                    <Flashcard 
+                        key={index}
+                        {...question}
+                        number={index+1}
+                        setFinished={setFinished}
+                        finished={finished}
+                        setEmojis={setEmojis}
+                        emojis={emojis}
+                    />
+                )})
+            }
             </div>
-            <Footer />
+            <Footer finished={finished} totalCards={questions.length} emojis={emojis}/>
         </div>
     )
    
