@@ -2,7 +2,7 @@ import NotRemember from "../NotRemember/NotRemember"
 import Almost from "../Almost/Almost"
 import Zap from "../Zap/Zap"
 export default function AnswerCard(props){
-    const {answer, setEmojis,emojis} = props
+    const {answer, setEmojis,emojis, setResult} = props
 
     return(
         <>
