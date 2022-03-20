@@ -207,7 +207,7 @@
 
 .Footer{
     width: 100vw;
-    height: 90px;
+    min-height: 90px;
     background: #FFFFFF;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
     display: flex;
@@ -224,11 +224,20 @@
     bottom:0;
 }
 
+.Footer p{
+    margin-bottom:10px;
+}
+
+.Footer span{
+    font-weight: 700;
+    margin-left: 13px;
+}
+
 .emoji{
-    margin-top:10px;
     width: 23px;
     height: 23px;
     margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 .correct p{
@@ -244,4 +253,14 @@
 .wrong-answer p{
     text-decoration-line: line-through;
     color: #FF3030;
+}
+
+.final-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 14px;
+    height: 100px;
 }
