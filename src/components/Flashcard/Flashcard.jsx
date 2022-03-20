@@ -14,7 +14,7 @@ export default function Flashcard(props){
         <>
         {stage===1?<IndexedCard number={number} setStage={setStage} setFinished={setFinished} finished={finished} result={result} />:
         stage===2?<QuestionCard question={question} setStage={setStage}/>:
-        <AnswerCard answer={answer} setEmojis={setEmojis} emojis={emojis} setResult={setResult} />}
+        <AnswerCard answer={answer} setEmojis={setEmojis} emojis={emojis} setResult={setResult} setStage={setStage} />}
         </>
         
     )   

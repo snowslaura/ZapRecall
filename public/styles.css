@@ -230,3 +230,18 @@
     height: 23px;
     margin-right: 5px;
 }
+
+.correct p{
+    text-decoration-line: line-through;
+    color: #2FBE34;
+}
+
+.almost-correct p{
+    text-decoration-line: line-through;
+    color: #FF922E;
+}
+
+.wrong-answer p{
+    text-decoration-line: line-through;
+    color: #FF3030;
+}
