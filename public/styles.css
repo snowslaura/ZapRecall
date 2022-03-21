@@ -50,7 +50,7 @@
     font-family: 'Righteous';
     font-style: normal;
     font-weight: 400;
-    font-size: 45px;
+    font-size: 36px;
     line-height: 31px;
     letter-spacing: -0.012em;
     color: #FFFFFF;
@@ -272,6 +272,25 @@
     text-align: center;
     line-height: 14px;
     height: 100px;
+}
+
+.restart{
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 167px;
+    height: 32px;
+    background: #FB6B6B;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-bottom:10px;
 }
 
 @media (min-width: 600px) {
