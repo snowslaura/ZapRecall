@@ -41,8 +41,8 @@
 }
 
 .FrontPageLogo{
-    width: 55px;
-    height: 65px;
+    width: 136px;
+    height: 161px;
 }
 
 .FrontPageName{
@@ -56,8 +56,10 @@
     color: #FFFFFF;
 }
 
+
+
 .StartButton{
-    margin-top: 82px;
+    margin-top: 30px;
     width: 250px;
     height: 50px;
     background: #FFFFFF;
@@ -88,18 +90,22 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 61px;
+    margin-bottom: 40px;
 }
 
 .Flashcards{
     overflow-y: scroll;
-    height: 380px;
+    height: 350px;
+}
+
+.Flashcards::-webkit-scrollbar {
+    display: none;
 }
 
 
 .LogoSmall{
-    width: 39px;
-    min-height: 45px;
+    width: 52px;
+    height: 60px;
 }
 
 .LogoName{
@@ -107,7 +113,7 @@
     font-family: 'Righteous';
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 36px;
     line-height: 25px;
     display: flex;
     align-items: center;
@@ -125,9 +131,11 @@
     margin-bottom: 25px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding:20px;
 } 
+
 .Question-stage1{
     font-family: 'Recursive';
     font-style: normal;
@@ -201,8 +209,9 @@
 }
 
 .Arrow{
-    width: 19px;
-    height: 23px;
+    width: 30px;
+    height: 34.5px;
+    background: #333333;
 }
 
 .Footer{
@@ -263,4 +272,37 @@
     text-align: center;
     line-height: 14px;
     height: 100px;
+}
+
+@media (min-width: 600px) {
+    
+    .LogoSmall{
+        width: 86.96px;
+        height: 100px;
+    }
+    
+    .LogoName{
+        font-size: 64px;
+        margin-left:40px;
+    }
+
+    .Card-stage1{
+        width: 567.12px;
+        height: 91.74px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .Card-stage2{
+        width:567.12px;
+    }
+
+    .Arrow-stage2{
+        margin-left:515px;
+    }
+
+    .Flashcards{
+        height: 450px;
+    }
+
 }

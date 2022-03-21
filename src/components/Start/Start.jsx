@@ -13,8 +13,7 @@ export default function Start(props){
         }
 
         function shuffleCards(array){    
-            array = array.sort(compare); 
-            return array
+            return array.sort(compare); 
         }   
 
         const shuffle = shuffleCards(questions);
@@ -26,7 +25,7 @@ export default function Start(props){
 return(
     <div className={hide?"hide":""}>
         <div className="start-page">
-            <img className="FrontPageLogo" src="./assets/logo.png" alt="logo-ZapRecall"/>
+            <img className="FrontPageLogo" src="./assets/frontPageLogo.png" alt="logo-ZapRecall"/>
             <h1 className="FrontPageName">ZapRecall</h1>
             <button className="StartButton" onClick={handleClick}>Iniciar Recall!</button>
         </div>
