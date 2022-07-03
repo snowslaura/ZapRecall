@@ -1,4 +1,4 @@
-<h1>This is ZapRecall!  /  Este é ZapRecallt!</h1>
+<h1>This is ZapRecall!  /  Este é ZapRecall!</h1>
 
 ![zaprecall](https://user-images.githubusercontent.com/92411912/177020695-2e062c11-20f3-48ce-aee0-30ee9a9ef1e4.gif)
 
