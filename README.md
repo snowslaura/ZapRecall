@@ -35,6 +35,7 @@ No final, se você não esqueceu da resposta de nenhum cartão, parabéns!!!</br
     <img  align="center" alt="Laura-npm" height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" />
     <img align="center" alt="Laura-ES6"  height="60" src="https://live.staticflickr.com/7306/16407404782_8b9c57eab3_w.jpg">    
     <img align="center" alt="Laura-github"  height="60" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg">
+    <img align="center" alt="Laura-vercel"  height="60" src="https://logowik.com/content/uploads/images/t_vercel1868.jpg"> 
 </div>
 <br />
 
