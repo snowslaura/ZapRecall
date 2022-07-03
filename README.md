@@ -1,5 +1,7 @@
 <h1>This is ZapRecall!  /  Este é ZapRecall!</h1>
 
+Check it out on : https://projeto8-zaprecall-nine-phi.vercel.app/
+
 ![zaprecall](https://user-images.githubusercontent.com/92411912/177020695-2e062c11-20f3-48ce-aee0-30ee9a9ef1e4.gif)
 
 <h3>English</h3>
